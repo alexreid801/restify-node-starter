@@ -3,7 +3,7 @@ var models = require( '../models' )( config );
 var jwt = require( 'jwt-simple' );
 var crypto = require( 'crypto' );
 var moment = require( 'moment-timezone' );
-var _ = require( 'lodash' );+
+var _ = require( 'lodash' );
 
 var Tokens = models.security_db.Tokens;
 

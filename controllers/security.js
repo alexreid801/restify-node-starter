@@ -6,7 +6,7 @@ var security_service = services.security_service;
 
 exports.login = function( req, res, next ){
 
-	security_service.login( req.params.identity, req.params.password, req.authorization.credentials ).then( function( token ){
+	security_service.login( req.params.identity, req.params.password ).then( function( token ){
 		
 		res.send( 200, { token: token } );
 		next();

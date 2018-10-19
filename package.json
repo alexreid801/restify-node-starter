@@ -1,7 +1,7 @@
 {
-  "name": "SLCFlix",
+  "name": "restify-node-starter",
   "version": "0.0.1",
-  "description": "Generated with Eclipse npm Tools",
+  "description": "A starting point node and restify api with MVC pattern.",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
@@ -21,7 +21,6 @@
     "mysql2": "^1.5.3",
     "passport": "^0.4.0",
     "passport-http-bearer": "^1.0.1",
-    "passport-slclix-http-bearer": "file:./modules/passport-slcflix-http-bearer",
     "promise": "^8.0.1",
     "restify": "^7.2.1",
     "restify-validation": "0.0.5",
