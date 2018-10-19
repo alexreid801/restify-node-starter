@@ -1,0 +1,29 @@
+{
+  "env": "development",
+  "name": "SLCFlix API",
+  "version": "0.0.1",
+  "ip": "127.0.0.1",
+  "port":  8001,
+  "databases": [
+  	{
+      "host": "127.0.0.1",
+      "name": "akirix_api",
+      "username": "root",
+      "password": "demo",
+      "dialect": "mysql",
+      "force_sync": false
+    },
+    {
+      "host": "127.0.0.1",
+      "name": "security_db",
+      "username": "root",
+      "password": "demo",
+      "dialect": "mysql",
+      "force_sync": false
+    }
+  ],
+  "secrets": {
+  	"token": "demo",
+  	"hashId": "demo"
+  }
+}
